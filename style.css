@@ -1,0 +1,62 @@
+h1  {
+    text-align:center;
+    color:pink
+}
+
+h1:hover{
+    color:red;
+    font-size: 50px
+}
+
+h2{
+    color:#9922ff
+    
+}
+
+body{
+    background-image: url('sea.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meme{
+    text-align:center;
+    color: YELLOW;
+}
+
+.games{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+    
+}
+
+img{
+    opacity:0.3
+}
+
+img:hover{
+    width:180px;
+    height:180px;
+    opacity: 1;
+}
+.car img:hover{
+    width:100px;
+    height:200px;
+}
+.cycle img:hover{
+    width: 200px;
+    height:200px;
+}
+.name{
+    
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+a:visited{
+    color:#393;
+}
